@@ -332,7 +332,7 @@ header {
   justify-content:flex-start;
   align-items: stretch;
   background-color: var(--white);
-  padding: 8px 48px;
+
 }
 .content_firstpart{
   display: flex;
@@ -420,7 +420,7 @@ header {
   justify-content: start;
   align-items: stretch;
   gap: 12px;
-  padding: 10px 0px;
+  padding: 10px 48px;
 }
 .content_secondpart_info{
   display: flex ;
@@ -1002,7 +1002,7 @@ gap: 10px; width: 63.11%;
     border-radius: 7px;
   }
 .content_thirdpart{
-  width: 100%;
+
   display: flex ;
   margin-top: 20px;
   flex-direction:  column;
@@ -1011,7 +1011,9 @@ gap: 10px; width: 63.11%;
   gap: 32px;
   border-radius: 7px;
   box-shadow: 0px 10px 30px 20px var(--shadow-white);
-  padding: 23px 32px;
+  padding: 23px 23px;
+  margin-left: 48px;
+  margin-right: 48px;
 }
 .content_thirdpart_header{
   width: 100%;
